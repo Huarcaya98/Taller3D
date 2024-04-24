@@ -22,6 +22,11 @@ namespace Semana_01
             return baseRectangulo * alturaRectangulo;
         }
 
+        public override float CalcularPerimetro()
+        {
+            return 2 * (baseRectangulo + alturaRectangulo);
+        }
+
 
     }
 }

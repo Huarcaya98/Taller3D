@@ -6,14 +6,8 @@ using System.Threading.Tasks;
 
 namespace Semana_01
 {
-    internal class Figura
+    internal class Perimetro
     {
-
-        public virtual float CalcularArea()
-        {
-            return 0;
-        } 
-
         public virtual float CalcularPerimetro()
         {
             return 0;
