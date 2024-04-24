@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Semana_03
 {
-    internal class Program
+    internal class Figura
     {
-        static void Main(string[] args)
+        public virtual float CalcularArea()
         {
-
+            return 0;
         }
     }
 }
